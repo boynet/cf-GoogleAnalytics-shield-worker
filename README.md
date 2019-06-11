@@ -4,7 +4,7 @@ simple cloudflare worker to protect google analytics from being blocked by ad bl
 
 It works by proxy the google analytics script file and endpoint url.
 
-right now it support only the analytics.js tracking and the `https://www.google-analytics.com/*collect` endpoint
+right now it support only the `analytics.js` tracking and the `https://www.google-analytics.com/*collect` endpoint
 there is other urls which not proxied right now(which will get blocked), in my case I dont need them, like:
 * ampcid.google.com
 * stats.g.doubleclick.net
