@@ -13,8 +13,7 @@ there is other urls which not proxied right now(which will get blocked), in my c
 * change UrlPrefix and EndPointScramble Parameters to random string, a common ads\analytics related words will get blocked
 * make your worker route to url matches `http://example.com/UrlPrefix*`
 * change your site google analytics script from `https://www.google-analytics.com/analytics.js` to `/UrlPrefix.js`
-
-** `(change UrlPrefix to the value you used in the worker parameter)`
+* (change UrlPrefix to the value you used in the worker parameter)
 
 ## Warnings:
 * pay attention to the gdpr law
